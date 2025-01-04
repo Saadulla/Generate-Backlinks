@@ -1,0 +1,174 @@
+/* Plugin Container */
+.fbg-container {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+#fbg-form {
+    margin-bottom: 30px;
+}
+
+#fbg-url {
+    width: 37%;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+#fbg-url:focus {
+    border-color: #0073aa;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 115, 170, 0.2);
+}
+
+button[type="submit"] {
+    background: #0073aa;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background: #005177;
+    transform: translateY(-1px);
+}
+
+/* Modern Table Styling */
+#fbg-results-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#fbg-results-table th {
+    background: #f8f9fa;
+    color: #333;
+    font-weight: 600;
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px solid #e9ecef;
+}
+
+#fbg-results-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #e9ecef;
+    color: #444;
+}
+
+#fbg-results-table tr:last-child td {
+    border-bottom: none;
+}
+
+#fbg-results-table tr:hover {
+    background-color: #f8f9fa;
+}
+
+#fbg-results-table td:first-child {
+    font-weight: 500;
+    color: #666;
+}
+
+#fbg-results-table a {
+    color: #0073aa;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+#fbg-results-table a:hover {
+    color: #005177;
+    text-decoration: underline;
+}
+
+/* Status Indicators */
+.checking {
+    color: #6c757d;
+    font-style: italic;
+}
+
+.success {
+    color: #28a745;
+    font-weight: 600;
+}
+
+.error {
+    color: #dc3545;
+    font-weight: 600;
+}
+
+/* Copy Section */
+.fbg-links-section {
+    margin-top: 30px;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#fbg-links-textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-family: monospace;
+    margin-bottom: 15px;
+    resize: vertical;
+}
+
+#fbg-copy-button {
+    background: #0073aa;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+#fbg-copy-button:hover {
+    background: #005177;
+    transform: translateY(-1px);
+}
+
+#fbg-copy-button:disabled {
+    background: #6c757d;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Admin Textarea with Line Numbers */
+.fbg-textarea-container {
+    position: relative;
+    margin-top: 10px;
+}
+
+.fbg-textarea-container textarea {
+    font-family: monospace;
+    line-height: 1.5;
+    resize: vertical;
+    tab-size: 4;
+}
+
+.line-numbers {
+    font-family: monospace;
+    line-height: 1.5;
+    font-size: 13px;
+    width: 30px;
+}
